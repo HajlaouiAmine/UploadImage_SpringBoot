@@ -1,0 +1,73 @@
+# Ignorer les fichiers spécifiques à Java
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# Ignorer les fichiers de configuration de Eclipse
+.classpath
+.project
+.settings/
+
+# Ignorer les fichiers de configuration de IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignorer les fichiers spécifiques à Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Ignorer les fichiers spécifiques à Gradle
+.gradle
+build/
+out/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+
+# Ignorer les fichiers spécifiques à Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignorer les fichiers spécifiques à Angular
+/dist/
+/node_modules/
+.angular/
+.angular-build/
+
+# Ignorer les fichiers spécifiques à Spring dans le dossier TestUploadImage
+/TestUploadImage/target/
+/TestUploadImage/.mvn/
+/TestUploadImage/.idea/
+/TestUploadImage/*.iml
+
+# Ignorer les fichiers de logs
+*.log
+
+# Ignorer les fichiers de configuration du système
+.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers spécifiques à l'OS
+# Windows
+*.bak
+*.tmp
+*.swp
+*.swo
+*.bak~
+*.swp~
+
+# Linux
+*~
+
+# MacOS
+._*
+.Spotlight-V100
+.Trashes
